@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abu Talha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Dock Navbar -->
+<nav class="dock">
+  <a href="#home">🏠<span>Home</span></a>
+  <a href="#about">💻<span>About</span></a>
+  <a href="#gallery">🖼️<span>Gallery</span></a>
+  <a href="#contact">📬<span>Contact</span></a>
+</nav>
+
+<!-- Hero -->
+<header id="home" class="hero reveal">
+  <img class="profile" src="https://raw.githubusercontent.com/jubairbro/Faw/refs/heads/main/photos/IMG_20250822_001904_975.jpg">
+  <div class="bubble">أبو طلحة</div>
+  <h1>Abu Talha</h1>
+  <p class="subtitle">Creative Developer • Designer • Dreamer</p>
+
+  <div class="controls glass">
+    <button id="playAudio">▶ Quran</button>
+    <button id="toggleTheme">🌙 / ☀️</button>
+
+    <div class="colors">
+      <span class="color" style="background:#007aff" data-color="#007aff"></span>
+      <span class="color" style="background:#ff375f" data-color="#ff375f"></span>
+      <span class="color" style="background:#34c759" data-color="#34c759"></span>
+      <span class="color" style="background:#af52de" data-color="#af52de"></span>
+      <span class="color" style="background:#ff9f0a" data-color="#ff9f0a"></span>
+    </div>
+  </div>
+</header>
+
+<!-- Gallery -->
+<section id="gallery" class="reveal">
+  <h2>Gallery</h2>
+  <div class="slider glass" id="slider">
+    <div class="slide active"><img src="https://raw.githubusercontent.com/jubairbro/Faw/refs/heads/main/photos/IMG_20250822_001904_975.jpg"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/jubairbro/Faw/refs/heads/main/photos/1735204262659.jpg"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/jubairbro/Faw/refs/heads/main/photos/satoru-gojo-jujutsu-5120x2880-10828.png"></div>
+    <div class="slide"><img src="https://raw.githubusercontent.com/jubairbro/Faw/refs/heads/main/photos/IMG_20251001_161822_246.jpg"></div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="reveal">
+  <h2>About</h2>
+  <div class="terminal glass">
+    <div class="dots">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+    </div>
+<pre>
+const Talha = {
+  name: "Abu Talha",
+  rank: "Leader of Noobs",
+  status: "404: Potential Not Found",
+  skills: ["Coding","Gaming","Photography"]
+};
+</pre>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="reveal">
+  <h2>Contact</h2>
+  <div id="contactCard" class="contact glass"></div>
+</section>
+
+<audio id="quran">
+  <source src="https://github.com/jubairbro/Faw/raw/refs/heads/main/audio.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
